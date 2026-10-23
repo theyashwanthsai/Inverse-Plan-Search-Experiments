@@ -1,0 +1,60 @@
+{
+  "backtrack": {
+    "yellow": {
+      "n": 200,
+      "reached": 1.0,
+      "optimal": 0.485,
+      "backtracked": 0.515,
+      "goal_made_unreachable": 0.0,
+      "mean_len": 12.62,
+      "optimal_len": 11
+    },
+    "blue": {
+      "n": 200,
+      "reached": 1.0,
+      "optimal": 0.04,
+      "backtracked": 1.0,
+      "goal_made_unreachable": 0.0,
+      "mean_len": 40.32,
+      "optimal_len": 24
+    },
+    "red": {
+      "n": 200,
+      "reached": 1.0,
+      "optimal": 0.895,
+      "backtracked": 0.105,
+      "goal_made_unreachable": 0.0,
+      "mean_len": 2.22,
+      "optimal_len": 2
+    }
+  },
+  "failure": {
+    "yellow": {
+      "n": 200,
+      "reached": 0.915,
+      "optimal": 0.355,
+      "backtracked": 1.0,
+      "goal_made_unreachable": 0.085,
+      "mean_len": 24.0,
+      "optimal_len": 14
+    },
+    "blue": {
+      "n": 200,
+      "reached": 0.25,
+      "optimal": 0.005,
+      "backtracked": 1.0,
+      "goal_made_unreachable": 0.75,
+      "mean_len": 86.51,
+      "optimal_len": 32
+    },
+    "red": {
+      "n": 200,
+      "reached": 1.0,
+      "optimal": 0.465,
+      "backtracked": 1.0,
+      "goal_made_unreachable": 0.0,
+      "mean_len": 13.85,
+      "optimal_len": 12
+    }
+  }
+}
