@@ -1,6 +1,6 @@
 # Reproducing SIPS and CLIPS
 
-A from-scratch Python reproduction of **SIPS** (Sequential Inverse Plan Search) and **CLIPS** (Cooperative Language-guided Inverse Plan Search), from this [talk](https://youtu.be/5rQFnHnd4ag?si=DBcKsDABIk5tEea-) and this [thesis] *Scaling Cooperative Intelligence via Inverse Planning and Probabilistic Programming* (MIT, 2025) by Prof. Tan Zhi-Xuan. I tried building everything from the thesis text alone, without reading the original codebase. No probabilistic-programming library is used: the particle filter, the planners, and the exact-inference checks are written by hand in raw python.
+A from-scratch Python reproduction of **SIPS** (Sequential Inverse Plan Search) and **CLIPS** (Cooperative Language-guided Inverse Plan Search), from this [talk](https://youtu.be/5rQFnHnd4ag?si=DBcKsDABIk5tEea-) and this [thesis](https://ztangent.github.io/assets/pdf/2025-phd-thesis-scaling-cooperative-intelligence.pdf) *Scaling Cooperative Intelligence via Inverse Planning and Probabilistic Programming* (MIT, 2025) by Prof. Tan Zhi-Xuan. I tried building everything from the thesis text alone, without reading the original codebase. No probabilistic-programming library is used: the particle filter, the planners, and the exact-inference checks are written by hand in raw python.
 
 Most of this README is about CLIPS. I re-implemented it, ran it against the thesis's baselines, and then tried a few ideas of my own about how the language model should be used inside it, mostly because the OpenAI models the thesis relied on are gone.
 
