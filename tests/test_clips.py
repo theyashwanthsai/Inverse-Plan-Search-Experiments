@@ -211,3 +211,84 @@ def test_ollama_teacher_forcing_censors_tokens_outside_top20(monkeypatch):
     assert sc.score_one("can you", "(cmd)", []) == pytest.approx(-10.0)
     assert (sc.n_tokens, sc.n_censored) == (3, 1)
     assert prompts[1].endswith('Utterance: "can') and prompts[2].endswith('Utterance: "can you')
+
+
+# ---------------- baselines: literal listener, verbal scorer, vision ----------------
+from clips.literal import LiteralListener, literal_commands, plan_command, systematic_sample  # noqa: E402
+from clips.render import render_png  # noqa: E402
+from llms.openai_vision import build_prompt  # noqa: E402
+
+RED_PICKUP = "(pickup you ?key1) where (iscolor ?key1 red)"
+
+
+def test_literal_commands_are_assistant_only_and_grouped(red_keys):
+    cmds = literal_commands(red_keys.env, red_keys.env.initial_state)
+    assert all(" me " not in c.split(" where ")[0] or "(handover you me" in c for c in cmds)
+    assert sorted(cmds[RED_PICKUP]) == [(("pickup", "robot", "key1"),), (("pickup", "robot", "key2"),)]
+
+
+def test_systematic_sampling_matches_probabilities():
+    picks = systematic_sample(np.array([0.2, 0.7, 0.1]), 10, np.random.default_rng(0))
+    assert np.bincount(picks, minlength=3).tolist() == [2, 7, 1]
+
+
+def test_plan_command_carries_out_the_command(tiny):
+    path, cost = plan_command(tiny, tiny.env.initial_state, (("handover", "robot", "key1"),), COST_FNS[0].table())
+    assert path[-1][1] == "handover_key1" and np.isfinite(cost)
+    assert tiny.env.step(*path[-1])[5] == (HELD_H,)
+
+
+def test_stay_mode_lets_the_robot_only_wait_or_hand_over(red_keys):
+    s = red_keys.env.step(red_keys.env.initial_state, "wait")  # robot's turn
+    acts, q = red_keys.Q(s, 0, 0, "stay")
+    assert all(np.isinf(v) for a, v in zip(acts, q) if a != "wait" and not a.startswith("handover"))
+
+
+def test_literal_naive_vs_efficient_grounding(red_keys):
+    # Only "pick up a red key" is liked. Efficient takes the red key nearest the robot (key2);
+    # naive averages over both red keys.
+    env = red_keys.env
+    s = env.step(env.initial_state, "wait")
+    g = env.goal_names.index("red")
+    r = LiteralListener(red_keys, FakeScorer({RED_PICKUP: 0.0})).assist(s, "", g, 2, "keys", {"key1"})
+    assert r["top_command"] == RED_PICKUP
+    assert r["efficient"]["precision"] == 0.0 and r["naive"]["precision"] == pytest.approx(0.5)
+    assert r["naive"]["reached"] == 1.0  # the robot hands the wrong key over or the human fetches key1
+
+
+def test_vision_stimulus_and_prompt(red_keys):
+    png = render_png(red_keys.env, red_keys.env.initial_state, [(3, 4), (3, 3)])
+    assert png[:4] == b"\x89PNG"
+    assert "left, left" in build_prompt(["left", "left"], "Hi", "keys") and "door(s)" in build_prompt([], "Hi", "doors")
+
+
+# ---------------- decision models (no network) ----------------
+from clips.render import describe_text, key_descriptions  # noqa: E402
+from llms.decisions import DecisionScorer, e2e_state  # noqa: E402
+
+
+class FakeDecider:
+    name = "fake-decider"
+
+    def __init__(self):
+        self.calls = []
+
+    def ask(self, state, yesno, choices={}):
+        self.calls.append(yesno)
+        return {n: (0.9 if "?key1 red" in t else 0.0) for n, t in yesno.items()}
+
+
+def test_decision_scorer_batches_and_floors(tmp_path, monkeypatch):
+    monkeypatch.setattr("llms.base.CACHE_DIR", tmp_path)
+    d = FakeDecider()
+    sc = DecisionScorer(d)
+    out = sc.loglik("get the red key", [RED_PICKUP, "(pickup you ?key1) where (iscolor ?key1 blue)"], [])
+    assert out[0] == pytest.approx(np.log(0.9)) and out[1] == pytest.approx(np.log(1e-3))
+    assert len(d.calls) == 1 and len(d.calls[0]) == 2  # one request for all commands
+
+
+def test_text_description_names_every_object(red_keys):
+    s = red_keys.env.initial_state
+    text = e2e_state(describe_text(red_keys.env, s), [], "Hi")
+    assert "key2: red key at row 5, column 6." in text and "door3: blue door" in text
+    assert set(key_descriptions(red_keys.env, s)) == {"key1", "key2", "key3"}

@@ -47,6 +47,7 @@ class JointPlanner:
 
     mode "joint": both agents act optimally (the human's model of cooperation).
     mode "solo": the robot only waits (the simulated human's fallback when the robot is unhelpful).
+    mode "stay": the robot only waits or hands over keys it holds (the literal listener's second phase).
     """
 
     def __init__(self, env: MDKG, cost_fns=COST_FNS):
@@ -76,6 +77,8 @@ class JointPlanner:
             keep = np.ones(len(w), dtype=bool)
             if mode == "solo":
                 keep = (self.actor == HUMAN) | (self.kind == WAIT)
+            elif mode == "stay":
+                keep = (self.actor == HUMAN) | (self.kind == WAIT) | (self.kind == HANDOVER)
             # Reverse graph: edge t -> s with the cost of the action s -> t. Action costs are > 0,
             # and no two actions join the same pair of states, so no duplicate edges get summed.
             n = self.n_states
@@ -96,6 +99,8 @@ class JointPlanner:
         q = self.edge_costs(c)[eidx] + self.V(g, c, mode)[nxt]
         if mode == "solo" and s[0] == ROBOT:
             q = np.where(np.array(acts) == "wait", q, np.inf)
+        elif mode == "stay" and s[0] == ROBOT:
+            q = np.where([a == "wait" or a.startswith("handover") for a in acts], q, np.inf)
         return acts, q
 
     def greedy_rollout(self, s, g: int, c: int, max_steps: int = 60):

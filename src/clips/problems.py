@@ -54,6 +54,9 @@ class Problem:
     true_goal: str
     true_cost: int  # index into planner.COST_FNS
     options: str  # "keys" (robot should pick up keys) or "doors" (robot should unlock doors)
+    # The literal listener only parses assistant-directed commands, so a joint instruction is
+    # replaced by its assistant-directed part for that baseline (thesis App. 4.8.1).
+    literal_utterance: str | None = None
 
 
 PROBLEMS = [
@@ -76,7 +79,8 @@ PROBLEMS = [
     Problem("tk_red_doors", "two_keys", "ambiguous / assistant / high uncertainty",
             (), "Please open the red doors.", "red", 0, "doors"),
     Problem("tk_joint", "two_keys", "partial / joint / low uncertainty",
-            ("left", "left", "left", "down"), "I'm getting a red key, can you get the blue key?", "yellow", 2, "keys"),
+            ("left", "left", "left", "down"), "I'm getting a red key, can you get the blue key?", "yellow", 2, "keys",
+            literal_utterance="Can you get the blue key?"),
     Problem("tk_yellow_door", "two_keys", "ambiguous / assistant / low uncertainty",
             ("right",), "Could you unlock the yellow door?", "blue", 1, "doors"),
 ]

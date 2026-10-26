@@ -2,6 +2,9 @@
  {
   "problem": "rk_ambiguous_left",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "action-only",
   "p_true": 0.5952943015039903,
   "posterior": {
@@ -12,9 +15,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -22,11 +22,14 @@
   "human_cost": 11.4,
   "reached": true,
   "fallback": false,
-  "seconds": 0.2773873759997514
+  "seconds": 0.24509479200060014
  },
  {
   "problem": "rk_ambiguous_left",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.8285931584079386,
   "posterior": {
@@ -37,9 +40,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -47,11 +47,14 @@
   "human_cost": 11.4,
   "reached": true,
   "fallback": false,
-  "seconds": 22.29366442799983
+  "seconds": 0.19585727900266647
  },
  {
   "problem": "rk_ambiguous_left",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.499908774336059,
   "posterior": {
@@ -62,9 +65,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -72,11 +72,14 @@
   "human_cost": 11.4,
   "reached": true,
   "fallback": false,
-  "seconds": 0.19592404299964983
+  "seconds": 0.17427763900195714
  },
  {
   "problem": "rk_ambiguous_left",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.8286449772231324,
   "posterior": {
@@ -87,9 +90,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -97,11 +97,14 @@
   "human_cost": 11.4,
   "reached": true,
   "fallback": false,
-  "seconds": 0.23506306700073765
+  "seconds": 0.1963680730004853
  },
  {
   "problem": "rk_ambiguous_left",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.49999999853573074,
   "posterior": {
@@ -112,9 +115,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -122,11 +122,305 @@
   "human_cost": 11.4,
   "reached": true,
   "fallback": false,
-  "seconds": 0.19264062299953366
+  "seconds": 0.17088003999742796
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.7965298283564338,
+  "posterior": {
+   "red": 0.797,
+   "yellow": 0.0,
+   "blue": 0.165,
+   "green": 0.039
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.19374508900000365
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.44736842105263147,
+  "posterior": {
+   "red": 0.447,
+   "yellow": 0.0,
+   "blue": 0.447,
+   "green": 0.105
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 20,
+  "human_cost": 12.0,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.18089617100122268
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.8197314378856164,
+  "posterior": {
+   "red": 0.82,
+   "yellow": 0.0,
+   "blue": 0.17,
+   "green": 0.011
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.078577068001323
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.4846235418875928,
+  "posterior": {
+   "red": 0.485,
+   "yellow": 0.0,
+   "blue": 0.485,
+   "green": 0.031
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.176640623001731
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.8272420066656563,
+  "posterior": {
+   "red": 0.827,
+   "yellow": 0.0,
+   "blue": 0.171,
+   "green": 0.002
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.0028295869997237
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.4975378442458508,
+  "posterior": {
+   "red": 0.498,
+   "yellow": 0.0,
+   "blue": 0.498,
+   "green": 0.005
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.17271104199971887
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.3333333333333333,
+  "recall": 0.65,
+  "steps": 31.3,
+  "human_cost": 18.47,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (pickup you ?key2) (handover you me ?key3) where (iscolor ?key1 red) (iscolor ?key2 red) (iscolor ?key3 blue) (0.14 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.2833333333333333,
+  "recall": 0.6,
+  "steps": 31.0,
+  "human_cost": 18.02,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (pickup you ?key2) (handover you me ?key3) where (iscolor ?key1 red) (iscolor ?key2 red) (iscolor ?key3 blue) (0.14 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.5,
+  "recall": 0.5,
+  "steps": 23.0,
+  "human_cost": 15.8,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.56 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.5,
+  "recall": 0.5,
+  "steps": 21.0,
+  "human_cost": 15.699999999999998,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.56 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "answer_goal": "red",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.96,
+  "posterior": {
+   "red": 0.96,
+   "yellow": 0.02,
+   "blue": 0.01,
+   "green": 0.01
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "help_probs": {
+   "key1": 0.63,
+   "key2": 0.36,
+   "key3": 0.27
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.89,
+  "posterior": {
+   "red": 0.89,
+   "yellow": 0.07,
+   "blue": 0.03,
+   "green": 0.01
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "help_probs": {
+   "key1": 0.58,
+   "key2": 0.01,
+   "key3": 0.0
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "rk_ambiguous_right",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
   "method": "action-only",
   "p_true": 0.37785162831629776,
   "posterior": {
@@ -137,9 +431,6 @@
   },
   "precision": 0.5,
   "recall": 1.0,
-  "gold": [
-   "key2"
-  ],
   "chosen": [
    "key2",
    "key3"
@@ -148,11 +439,14 @@
   "human_cost": 12.8,
   "reached": true,
   "fallback": false,
-  "seconds": 0.013151467999705346
+  "seconds": 0.010535702000197489
  },
  {
   "problem": "rk_ambiguous_right",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.706345282083537,
   "posterior": {
@@ -163,9 +457,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key2"
-  ],
   "chosen": [
    "key2"
   ],
@@ -173,11 +464,14 @@
   "human_cost": 12.2,
   "reached": true,
   "fallback": false,
-  "seconds": 0.2051738309992288
+  "seconds": 0.19244507499752217
  },
  {
   "problem": "rk_ambiguous_right",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.499908774336059,
   "posterior": {
@@ -188,19 +482,19 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "key2"
-  ],
   "chosen": [],
   "steps": 32,
   "human_cost": 23.6,
   "reached": true,
   "fallback": true,
-  "seconds": 0.19607887199981633
+  "seconds": 0.1755368369995267
  },
  {
   "problem": "rk_ambiguous_right",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.7065274179046679,
   "posterior": {
@@ -211,9 +505,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key2"
-  ],
   "chosen": [
    "key2"
   ],
@@ -221,11 +512,14 @@
   "human_cost": 12.2,
   "reached": true,
   "fallback": false,
-  "seconds": 0.20785216900003434
+  "seconds": 0.1927423089982767
  },
  {
   "problem": "rk_ambiguous_right",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.49999999853573074,
   "posterior": {
@@ -236,19 +530,309 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "key2"
-  ],
   "chosen": [],
   "steps": 32,
   "human_cost": 23.6,
   "reached": true,
   "fallback": true,
-  "seconds": 0.19750925700009248
+  "seconds": 0.18252434599708067
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.6058155808646524,
+  "posterior": {
+   "red": 0.252,
+   "yellow": 0.0,
+   "blue": 0.606,
+   "green": 0.143
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key2"
+  ],
+  "steps": 22,
+  "human_cost": 12.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.18974977700054296
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.44736842105263147,
+  "posterior": {
+   "red": 0.447,
+   "yellow": 0.0,
+   "blue": 0.447,
+   "green": 0.105
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key2"
+  ],
+  "steps": 34,
+  "human_cost": 20.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.18623346000094898
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.6762099895467186,
+  "posterior": {
+   "red": 0.281,
+   "yellow": 0.0,
+   "blue": 0.676,
+   "green": 0.043
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key2"
+  ],
+  "steps": 22,
+  "human_cost": 12.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.18875387600201066
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.4846235418875928,
+  "posterior": {
+   "red": 0.485,
+   "yellow": 0.0,
+   "blue": 0.485,
+   "green": 0.031
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 32,
+  "human_cost": 23.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.17904354499842157
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.7016211547756888,
+  "posterior": {
+   "red": 0.291,
+   "yellow": 0.0,
+   "blue": 0.702,
+   "green": 0.007
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key2"
+  ],
+  "steps": 22,
+  "human_cost": 12.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.18520888599960017
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.4975378442458508,
+  "posterior": {
+   "red": 0.498,
+   "yellow": 0.0,
+   "blue": 0.498,
+   "green": 0.005
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key2"
+  ],
+  "steps": 34,
+  "human_cost": 20.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.17807946099856053
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.41666666666666663,
+  "recall": 0.85,
+  "steps": 35.9,
+  "human_cost": 19.31,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (pickup you ?key2) (handover you me ?key3) where (iscolor ?key1 red) (iscolor ?key2 red) (iscolor ?key3 blue) (0.14 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.5166666666666666,
+  "recall": 1.0,
+  "steps": 34.4,
+  "human_cost": 18.959999999999997,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (pickup you ?key2) (handover you me ?key3) where (iscolor ?key1 red) (iscolor ?key2 red) (iscolor ?key3 blue) (0.14 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.5,
+  "recall": 0.5,
+  "steps": 28.5,
+  "human_cost": 17.75,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.56 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 26.0,
+  "human_cost": 16.599999999999998,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.56 of 49)"
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key2"
+  ],
+  "answer_goal": "blue",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.08,
+  "posterior": {
+   "red": 0.8,
+   "yellow": 0.03,
+   "blue": 0.08,
+   "green": 0.09
+  },
+  "precision": 0.5,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "help_probs": {
+   "key1": 0.55,
+   "key2": 0.58,
+   "key3": 0.36
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "key2"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.14,
+  "posterior": {
+   "red": 0.73,
+   "yellow": 0.09,
+   "blue": 0.14,
+   "green": 0.04
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [
+   "key1"
+  ],
+  "help_probs": {
+   "key1": 0.67,
+   "key2": 0.43,
+   "key3": 0.0
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "rk_no_actions",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "action-only",
   "p_true": 0.25,
   "posterior": {
@@ -259,19 +843,19 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [],
   "steps": 23,
   "human_cost": 20.0,
   "reached": true,
   "fallback": true,
-  "seconds": 0.00017524499980936525
+  "seconds": 0.0001695140017545782
  },
  {
   "problem": "rk_no_actions",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.49986912445976756,
   "posterior": {
@@ -282,9 +866,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -292,11 +873,14 @@
   "human_cost": 13.399999999999999,
   "reached": true,
   "fallback": false,
-  "seconds": 14.970654813999317
+  "seconds": 0.17784210599711514
  },
  {
   "problem": "rk_no_actions",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.49986912445976756,
   "posterior": {
@@ -307,9 +891,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -317,11 +898,14 @@
   "human_cost": 13.399999999999999,
   "reached": true,
   "fallback": false,
-  "seconds": 0.20856583200020395
+  "seconds": 0.18416400600108318
  },
  {
   "problem": "rk_no_actions",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.49999999712990684,
   "posterior": {
@@ -332,9 +916,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -342,11 +923,14 @@
   "human_cost": 12.8,
   "reached": true,
   "fallback": false,
-  "seconds": 0.2081101320000016
+  "seconds": 0.17946438099897932
  },
  {
   "problem": "rk_no_actions",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.49999999712990684,
   "posterior": {
@@ -357,9 +941,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1"
-  ],
   "chosen": [
    "key1"
   ],
@@ -367,11 +948,306 @@
   "human_cost": 12.8,
   "reached": true,
   "fallback": false,
-  "seconds": 0.21219722999921942
+  "seconds": 0.18513723400246818
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.45644235785080856,
+  "posterior": {
+   "red": 0.456,
+   "yellow": 0.0,
+   "blue": 0.456,
+   "green": 0.087
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 23,
+  "human_cost": 14.0,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.1792212539985485
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.45644235785080856,
+  "posterior": {
+   "red": 0.456,
+   "yellow": 0.0,
+   "blue": 0.456,
+   "green": 0.087
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 23,
+  "human_cost": 14.0,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.17592398800115916
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.483739837398374,
+  "posterior": {
+   "red": 0.484,
+   "yellow": 0.0,
+   "blue": 0.484,
+   "green": 0.033
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 21,
+  "human_cost": 13.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.053357152002718
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.483739837398374,
+  "posterior": {
+   "red": 0.484,
+   "yellow": 0.0,
+   "blue": 0.484,
+   "green": 0.033
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 21,
+  "human_cost": 13.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.1772919520008145
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.4986801583809944,
+  "posterior": {
+   "red": 0.499,
+   "yellow": 0.0,
+   "blue": 0.499,
+   "green": 0.003
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 21,
+  "human_cost": 13.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.8736479109975335
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.4986801583809944,
+  "posterior": {
+   "red": 0.499,
+   "yellow": 0.0,
+   "blue": 0.499,
+   "green": 0.003
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "steps": 21,
+  "human_cost": 13.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.1747788339998806
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.2333333333333333,
+  "recall": 0.5,
+  "steps": 37.6,
+  "human_cost": 22.779999999999998,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (handover you me ?key2) (unlock you ?door1) where (iscolor ?key1 red) (iscolor ?key2 red) (iscolor ?door1 red) (0.17 of 49)"
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.2333333333333333,
+  "recall": 0.5,
+  "steps": 36.0,
+  "human_cost": 21.380000000000003,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (handover you me ?key2) (unlock you ?door1) where (iscolor ?key1 red) (iscolor ?key2 red) (iscolor ?door1 red) (0.17 of 49)"
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.5,
+  "recall": 0.55,
+  "steps": 26.3,
+  "human_cost": 17.23,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.95 of 49)"
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.95,
+  "recall": 1.0,
+  "steps": 20.0,
+  "human_cost": 13.9,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.95 of 49)"
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [
+   "key2"
+  ],
+  "answer_goal": "blue",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.9,
+  "posterior": {
+   "red": 0.9,
+   "yellow": 0.04,
+   "blue": 0.03,
+   "green": 0.03
+  },
+  "precision": 0.5,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "help_probs": {
+   "key1": 0.67,
+   "key2": 0.65,
+   "key3": 0.24
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "key1"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.89,
+  "posterior": {
+   "red": 0.89,
+   "yellow": 0.06,
+   "blue": 0.04,
+   "green": 0.01
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1"
+  ],
+  "help_probs": {
+   "key1": 0.63,
+   "key2": 0.34,
+   "key3": 0.0
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "rk_door_blue",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "action-only",
   "p_true": 0.6741436915359194,
   "posterior": {
@@ -382,19 +1258,19 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [],
   "steps": 18,
   "human_cost": 11.0,
   "reached": true,
   "fallback": false,
-  "seconds": 0.031566927999847394
+  "seconds": 0.03161714499947266
  },
  {
   "problem": "rk_door_blue",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.9999455949634464,
   "posterior": {
@@ -405,9 +1281,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -415,11 +1288,14 @@
   "human_cost": 10.6,
   "reached": true,
   "fallback": false,
-  "seconds": 12.150143212999865
+  "seconds": 0.222401033002825
  },
  {
   "problem": "rk_door_blue",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.9996608063437669,
   "posterior": {
@@ -430,9 +1306,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -440,11 +1313,14 @@
   "human_cost": 10.6,
   "reached": true,
   "fallback": false,
-  "seconds": 0.1894892450000043
+  "seconds": 0.19513057700169156
  },
  {
   "problem": "rk_door_blue",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.9999984742245882,
   "posterior": {
@@ -455,9 +1331,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -465,11 +1338,14 @@
   "human_cost": 10.6,
   "reached": true,
   "fallback": false,
-  "seconds": 0.22085086600054638
+  "seconds": 0.22858076500051538
  },
  {
   "problem": "rk_door_blue",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.9999926981198999,
   "posterior": {
@@ -480,9 +1356,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -490,11 +1363,300 @@
   "human_cost": 10.6,
   "reached": true,
   "fallback": false,
-  "seconds": 0.18891771499966126
+  "seconds": 0.1881520700007968
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.8460269372756819,
+  "posterior": {
+   "red": 0.04,
+   "yellow": 0.0,
+   "blue": 0.114,
+   "green": 0.846
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 11.0,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.2194448709997232
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.5471698113207546,
+  "posterior": {
+   "red": 0.226,
+   "yellow": 0.0,
+   "blue": 0.226,
+   "green": 0.547
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 57.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 0.18759718700312078
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.9588609766466427,
+  "posterior": {
+   "red": 0.012,
+   "yellow": 0.0,
+   "blue": 0.029,
+   "green": 0.959
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.0555557619991305
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.8307210031347962,
+  "posterior": {
+   "red": 0.088,
+   "yellow": 0.0,
+   "blue": 0.082,
+   "green": 0.831
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.1902802500007965
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.9981450429019788,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 0.001,
+   "green": 0.998
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.7850640310025483
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.9916201117318435,
+  "posterior": {
+   "red": 0.004,
+   "yellow": 0.0,
+   "blue": 0.004,
+   "green": 0.992
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.18858148999788682
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 18.2,
+  "human_cost": 10.7,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (0.87 of 49)"
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 18.2,
+  "human_cost": 10.7,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (0.87 of 49)"
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 18.0,
+  "human_cost": 10.599999999999998,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (1.00 of 49)"
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 18.0,
+  "human_cost": 10.599999999999998,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (1.00 of 49)"
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 0.5,
+  "recall": 1.0,
+  "chosen": [
+   "door3",
+   "key3"
+  ],
+  "answer_goal": "green",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.36,
+  "posterior": {
+   "red": 0.01,
+   "yellow": 0.01,
+   "blue": 0.62,
+   "green": 0.36
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "help_probs": {
+   "door1": 0.23,
+   "door2": 0.26,
+   "door3": 0.56
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.12,
+  "posterior": {
+   "red": 0.04,
+   "yellow": 0.04,
+   "blue": 0.8,
+   "green": 0.12
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "help_probs": {
+   "door1": 0.0,
+   "door2": 0.02,
+   "door3": 0.09
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "rk_that_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
   "method": "action-only",
   "p_true": 0.758476492095361,
   "posterior": {
@@ -505,19 +1667,19 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door1"
-  ],
   "chosen": [],
   "steps": 18,
   "human_cost": 11.0,
   "reached": true,
   "fallback": false,
-  "seconds": 0.032594765999419906
+  "seconds": 0.031812279998121085
  },
  {
   "problem": "rk_that_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.5368565966283327,
   "posterior": {
@@ -528,19 +1690,19 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door1"
-  ],
   "chosen": [],
   "steps": 20,
   "human_cost": 17.6,
   "reached": true,
   "fallback": true,
-  "seconds": 12.115536634000819
+  "seconds": 0.21171606200005044
  },
  {
   "problem": "rk_that_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.1204636106408071,
   "posterior": {
@@ -551,19 +1713,19 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door1"
-  ],
   "chosen": [],
   "steps": 18,
   "human_cost": 17.0,
   "reached": true,
   "fallback": true,
-  "seconds": 0.17877545100054704
+  "seconds": 0.1814928889980365
  },
  {
   "problem": "rk_that_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.761291333931186,
   "posterior": {
@@ -574,9 +1736,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door1"
-  ],
   "chosen": [
    "door1"
   ],
@@ -584,11 +1743,14 @@
   "human_cost": 29.6,
   "reached": true,
   "fallback": true,
-  "seconds": 0.21127055599936284
+  "seconds": 0.2181278909993125
  },
  {
   "problem": "rk_that_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.27440489346438734,
   "posterior": {
@@ -599,19 +1761,302 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door1"
-  ],
   "chosen": [],
   "steps": 18,
   "human_cost": 17.0,
   "reached": true,
   "fallback": true,
-  "seconds": 0.1788722940000298
+  "seconds": 0.18887825999991037
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.8169613189250473,
+  "posterior": {
+   "red": 0.817,
+   "yellow": 0.0,
+   "blue": 0.097,
+   "green": 0.086
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 11.0,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.22316950599997654
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.33333333333333337,
+  "posterior": {
+   "red": 0.333,
+   "yellow": 0.0,
+   "blue": 0.333,
+   "green": 0.333
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 20,
+  "human_cost": 17.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.19909998600269319
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.8165138255379331,
+  "posterior": {
+   "red": 0.817,
+   "yellow": 0.0,
+   "blue": 0.097,
+   "green": 0.087
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door1"
+  ],
+  "steps": 48,
+  "human_cost": 29.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.7694907590012008
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.3406015037593985,
+  "posterior": {
+   "red": 0.341,
+   "yellow": 0.0,
+   "blue": 0.341,
+   "green": 0.319
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 17.0,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.1797182119989884
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.8159584011423859,
+  "posterior": {
+   "red": 0.816,
+   "yellow": 0.0,
+   "blue": 0.097,
+   "green": 0.087
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door1"
+  ],
+  "steps": 48,
+  "human_cost": 29.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.3764142250001896
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.34142259414225934,
+  "posterior": {
+   "red": 0.341,
+   "yellow": 0.0,
+   "blue": 0.341,
+   "green": 0.317
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 17.0,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.1787339090005844
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.075,
+  "recall": 0.1,
+  "steps": 30.2,
+  "human_cost": 20.02,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (0.76 of 49)"
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.1,
+  "recall": 0.1,
+  "steps": 29.6,
+  "human_cost": 19.84,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (0.76 of 49)"
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.2,
+  "recall": 0.2,
+  "steps": 28.4,
+  "human_cost": 18.839999999999996,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (0.62 of 49)"
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.4,
+  "recall": 0.4,
+  "steps": 25.2,
+  "human_cost": 16.6,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 blue) (0.62 of 49)"
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 0.5,
+  "recall": 1.0,
+  "chosen": [
+   "door1",
+   "key1"
+  ],
+  "answer_goal": "red",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.92,
+  "posterior": {
+   "red": 0.92,
+   "yellow": 0.03,
+   "blue": 0.02,
+   "green": 0.03
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door1"
+  ],
+  "help_probs": {
+   "door1": 0.6,
+   "door2": 0.32,
+   "door3": 0.3
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door1"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.67,
+  "posterior": {
+   "red": 0.67,
+   "yellow": 0.16,
+   "blue": 0.12,
+   "green": 0.05
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "help_probs": {
+   "door1": 0.27,
+   "door2": 0.0,
+   "door3": 0.0
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "tk_partial_red",
   "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
   "method": "action-only",
   "p_true": 0.6965218502083621,
   "posterior": {
@@ -622,10 +2067,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1",
-   "key2"
-  ],
   "chosen": [
    "key1",
    "key2"
@@ -634,11 +2075,15 @@
   "human_cost": 13.6,
   "reached": true,
   "fallback": false,
-  "seconds": 1.1498515519997454
+  "seconds": 1.1593247320015507
  },
  {
   "problem": "tk_partial_red",
   "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.9631203192240188,
   "posterior": {
@@ -649,10 +2094,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1",
-   "key2"
-  ],
   "chosen": [
    "key1",
    "key2"
@@ -661,11 +2102,15 @@
   "human_cost": 13.6,
   "reached": true,
   "fallback": false,
-  "seconds": 66.99228631200003
+  "seconds": 2.1625634979973256
  },
  {
   "problem": "tk_partial_red",
   "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.7887506983361143,
   "posterior": {
@@ -676,10 +2121,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1",
-   "key2"
-  ],
   "chosen": [
    "key1",
    "key2"
@@ -688,11 +2129,15 @@
   "human_cost": 13.6,
   "reached": true,
   "fallback": false,
-  "seconds": 1.860859475000325
+  "seconds": 1.9287073710002005
  },
  {
   "problem": "tk_partial_red",
   "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.9657462453117764,
   "posterior": {
@@ -703,10 +2148,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1",
-   "key2"
-  ],
   "chosen": [
    "key1",
    "key2"
@@ -715,11 +2156,15 @@
   "human_cost": 13.6,
   "reached": true,
   "fallback": false,
-  "seconds": 2.1320035600001574
+  "seconds": 2.1329157069994835
  },
  {
   "problem": "tk_partial_red",
   "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.8002255432656933,
   "posterior": {
@@ -730,10 +2175,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key1",
-   "key2"
-  ],
   "chosen": [
    "key1",
    "key2"
@@ -742,11 +2183,328 @@
   "human_cost": 13.6,
   "reached": true,
   "fallback": false,
-  "seconds": 1.8726003619995026
+  "seconds": 1.964079043998936
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.8376555665433887,
+  "posterior": {
+   "red": 0.838,
+   "yellow": 0.112,
+   "blue": 0.05,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.1472580029985693
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.4945185891325072,
+  "posterior": {
+   "red": 0.495,
+   "yellow": 0.283,
+   "blue": 0.222,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 0.5,
+  "chosen": [
+   "key2"
+  ],
+  "steps": 120,
+  "human_cost": 59.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 1.912048957998195
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.893153192739685,
+  "posterior": {
+   "red": 0.893,
+   "yellow": 0.093,
+   "blue": 0.014,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.705690902999777
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.6370109428871233,
+  "posterior": {
+   "red": 0.637,
+   "yellow": 0.29,
+   "blue": 0.073,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.9204452759986452
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.9419183036896122,
+  "posterior": {
+   "red": 0.942,
+   "yellow": 0.047,
+   "blue": 0.012,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 3.134405950000655
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.7148528821812448,
+  "posterior": {
+   "red": 0.715,
+   "yellow": 0.226,
+   "blue": 0.059,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.9518427410002914
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.65,
+  "recall": 0.75,
+  "steps": 38.7,
+  "human_cost": 22.689999999999998,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (pickup you ?key2) where (iscolor ?key1 red) (iscolor ?key2 red) (0.14 of 140)"
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.6833333333333333,
+  "recall": 0.8,
+  "steps": 38.4,
+  "human_cost": 22.04,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) (pickup you ?key2) where (iscolor ?key1 red) (iscolor ?key2 red) (0.14 of 140)"
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 0.5,
+  "steps": 31.0,
+  "human_cost": 22.7,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.53 of 140)"
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 0.5,
+  "steps": 26.0,
+  "human_cost": 20.6,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (handover you me ?key1) where (iscolor ?key1 red) (0.53 of 140)"
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 1.0,
+  "recall": 0.5,
+  "chosen": [
+   "key2"
+  ],
+  "answer_goal": "red",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.96,
+  "posterior": {
+   "red": 0.96,
+   "yellow": 0.02,
+   "blue": 0.01,
+   "green": 0.01
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "help_probs": {
+   "key1": 0.68,
+   "key2": 0.62,
+   "key3": 0.3,
+   "key4": 0.27
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.98,
+  "posterior": {
+   "red": 0.98,
+   "yellow": 0.01,
+   "blue": 0.01,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "help_probs": {
+   "key1": 0.67,
+   "key2": 0.85,
+   "key3": 0.0,
+   "key4": 0.0
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "tk_partial_door",
   "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
   "method": "action-only",
   "p_true": 0.3778516283162975,
   "posterior": {
@@ -757,20 +2515,20 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door2",
-   "door5"
-  ],
   "chosen": [],
   "steps": 120,
   "human_cost": 63.2,
   "reached": false,
   "fallback": true,
-  "seconds": 0.07557948200064857
+  "seconds": 0.07794240099974559
  },
  {
   "problem": "tk_partial_door",
   "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.39592357837472825,
   "posterior": {
@@ -781,20 +2539,20 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door2",
-   "door5"
-  ],
   "chosen": [],
   "steps": 120,
   "human_cost": 63.2,
   "reached": false,
   "fallback": true,
-  "seconds": 55.59806912399927
+  "seconds": 1.9629561889996694
  },
  {
   "problem": "tk_partial_door",
   "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.3959093994834082,
   "posterior": {
@@ -805,20 +2563,20 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door2",
-   "door5"
-  ],
   "chosen": [],
   "steps": 120,
   "human_cost": 63.2,
   "reached": false,
   "fallback": true,
-  "seconds": 1.870204494999598
+  "seconds": 1.8719634150002094
  },
  {
   "problem": "tk_partial_door",
   "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.333330330847608,
   "posterior": {
@@ -829,20 +2587,20 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door2",
-   "door5"
-  ],
   "chosen": [],
   "steps": 52,
   "human_cost": 32.8,
   "reached": true,
   "fallback": true,
-  "seconds": 1.947555650999675
+  "seconds": 1.9458246079993842
  },
  {
   "problem": "tk_partial_door",
   "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.3333303283561102,
   "posterior": {
@@ -853,20 +2611,316 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door2",
-   "door5"
-  ],
   "chosen": [],
   "steps": 52,
   "human_cost": 32.8,
   "reached": true,
   "fallback": true,
-  "seconds": 1.8877972509999381
+  "seconds": 1.8814573620002193
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.38903187423788477,
+  "posterior": {
+   "red": 0.483,
+   "yellow": 0.389,
+   "blue": 0.128,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 1.9941551909978443
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.32974935418557555,
+  "posterior": {
+   "red": 0.41,
+   "yellow": 0.33,
+   "blue": 0.261,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 1.961145952998777
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.36673389684588764,
+  "posterior": {
+   "red": 0.594,
+   "yellow": 0.367,
+   "blue": 0.04,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 2.991762617002678
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.346506416785496,
+  "posterior": {
+   "red": 0.561,
+   "yellow": 0.347,
+   "blue": 0.093,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 1.9207097760008764
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.34785116536672794,
+  "posterior": {
+   "red": 0.651,
+   "yellow": 0.348,
+   "blue": 0.002,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 52,
+  "human_cost": 32.8,
+  "reached": true,
+  "fallback": true,
+  "seconds": 12.384976147000998
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.3471017274472167,
+  "posterior": {
+   "red": 0.649,
+   "yellow": 0.347,
+   "blue": 0.004,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 52,
+  "human_cost": 32.8,
+  "reached": true,
+  "fallback": true,
+  "seconds": 1.901549807000265
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.2333333333333333,
+  "recall": 0.11666666666666665,
+  "steps": 44.4,
+  "human_cost": 27.153333333333336,
+  "reached": 0.6666666666666666,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 red) (0.72 of 140)"
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.0,
+  "recall": 0.0,
+  "steps": 54.9,
+  "human_cost": 36.720000000000006,
+  "reached": 0.9,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 red) (0.72 of 140)"
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.33333333333333337,
+  "recall": 0.16666666666666669,
+  "steps": 45.0,
+  "human_cost": 25.93333333333333,
+  "reached": 0.6666666666666667,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 red) (1.00 of 140)"
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.0,
+  "recall": 0.0,
+  "steps": 60.0,
+  "human_cost": 39.60000000000001,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 red) (1.00 of 140)"
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door2",
+   "door5"
+  ],
+  "answer_goal": "yellow",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.05,
+  "posterior": {
+   "red": 0.91,
+   "yellow": 0.05,
+   "blue": 0.02,
+   "green": 0.02
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [
+   "door1",
+   "door4"
+  ],
+  "help_probs": {
+   "door1": 0.52,
+   "door2": 0.25,
+   "door3": 0.28,
+   "door4": 0.56,
+   "door5": 0.37
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.05,
+  "posterior": {
+   "red": 0.9,
+   "yellow": 0.05,
+   "blue": 0.04,
+   "green": 0.01
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "help_probs": {
+   "door1": 0.01,
+   "door2": 0.0,
+   "door3": 0.0,
+   "door4": 0.01,
+   "door5": 0.11
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "tk_red_doors",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
   "method": "action-only",
   "p_true": 0.25,
   "posterior": {
@@ -877,20 +2931,20 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door1",
-   "door4"
-  ],
   "chosen": [],
   "steps": 37,
   "human_cost": 31.0,
   "reached": true,
   "fallback": true,
-  "seconds": 0.00020082500032003736
+  "seconds": 0.00016324399985023774
  },
  {
   "problem": "tk_red_doors",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.9776079813923504,
   "posterior": {
@@ -901,10 +2955,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door1",
-   "door4"
-  ],
   "chosen": [
    "door1",
    "door4"
@@ -913,11 +2963,15 @@
   "human_cost": 14.599999999999998,
   "reached": true,
   "fallback": false,
-  "seconds": 48.94223726099972
+  "seconds": 1.9028304109997407
  },
  {
   "problem": "tk_red_doors",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.9776079813923504,
   "posterior": {
@@ -928,10 +2982,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door1",
-   "door4"
-  ],
   "chosen": [
    "door1",
    "door4"
@@ -940,11 +2990,15 @@
   "human_cost": 14.599999999999998,
   "reached": true,
   "fallback": false,
-  "seconds": 1.8672843690001173
+  "seconds": 1.9528121930015914
  },
  {
   "problem": "tk_red_doors",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.9948488160695368,
   "posterior": {
@@ -955,10 +3009,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door1",
-   "door4"
-  ],
   "chosen": [
    "door1",
    "door4"
@@ -967,11 +3017,15 @@
   "human_cost": 14.599999999999998,
   "reached": true,
   "fallback": false,
-  "seconds": 7.6125019139999495
+  "seconds": 1.873017568999785
  },
  {
   "problem": "tk_red_doors",
   "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.9948488160695368,
   "posterior": {
@@ -982,10 +3036,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door1",
-   "door4"
-  ],
   "chosen": [
    "door1",
    "door4"
@@ -994,11 +3044,313 @@
   "human_cost": 14.599999999999998,
   "reached": true,
   "fallback": false,
-  "seconds": 1.8643896949997725
+  "seconds": 1.9446872670014272
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.3999999999999999,
+  "posterior": {
+   "red": 0.4,
+   "yellow": 0.305,
+   "blue": 0.295,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 59.6,
+  "reached": false,
+  "fallback": true,
+  "seconds": 1.8876954870029294
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.3999999999999999,
+  "posterior": {
+   "red": 0.4,
+   "yellow": 0.305,
+   "blue": 0.295,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 59.6,
+  "reached": false,
+  "fallback": true,
+  "seconds": 2.0084884370007785
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.6440191387559808,
+  "posterior": {
+   "red": 0.644,
+   "yellow": 0.279,
+   "blue": 0.077,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 25,
+  "human_cost": 15.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.501872065000498
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.6440191387559808,
+  "posterior": {
+   "red": 0.644,
+   "yellow": 0.279,
+   "blue": 0.077,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 25,
+  "human_cost": 15.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.945851081996807
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.7759942217095546,
+  "posterior": {
+   "red": 0.776,
+   "yellow": 0.22,
+   "blue": 0.004,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 25,
+  "human_cost": 15.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 3.127250344001368
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.7759942217095546,
+  "posterior": {
+   "red": 0.776,
+   "yellow": 0.22,
+   "blue": 0.004,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 25,
+  "human_cost": 15.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.8889569289967767
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.2,
+  "recall": 0.25,
+  "steps": 37.833333333333336,
+  "human_cost": 28.47,
+  "reached": 0.9333333333333332,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) (unlock you ?door2) (unlock you ?door3) where (iscolor ?door1 red) (iscolor ?door2 red) (iscolor ?door3 red) (0.31 of 140)"
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.4,
+  "recall": 0.5,
+  "steps": 40.4,
+  "human_cost": 28.26,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) (unlock you ?door2) (unlock you ?door3) where (iscolor ?door1 red) (iscolor ?door2 red) (iscolor ?door3 red) (0.31 of 140)"
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.25,
+  "recall": 0.25,
+  "steps": 33.833333333333336,
+  "human_cost": 24.6,
+  "reached": 0.8333333333333333,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) (unlock you ?door2) where (iscolor ?door1 red) (iscolor ?door2 red) (0.50 of 140)"
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 0.5,
+  "recall": 0.5,
+  "steps": 35.0,
+  "human_cost": 24.0,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) (unlock you ?door2) where (iscolor ?door1 red) (iscolor ?door2 red) (0.50 of 140)"
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door1",
+   "door4"
+  ],
+  "answer_goal": "red",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.93,
+  "posterior": {
+   "red": 0.93,
+   "yellow": 0.03,
+   "blue": 0.01,
+   "green": 0.03
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door1",
+   "door4"
+  ],
+  "help_probs": {
+   "door1": 0.53,
+   "door2": 0.24,
+   "door3": 0.27,
+   "door4": 0.58,
+   "door5": 0.37
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.98,
+  "posterior": {
+   "red": 0.98,
+   "yellow": 0.01,
+   "blue": 0.01,
+   "green": 0.0
+  },
+  "precision": 0.5,
+  "recall": 0.5,
+  "chosen": [
+   "door1",
+   "door5"
+  ],
+  "help_probs": {
+   "door1": 0.58,
+   "door2": 0.0,
+   "door3": 0.0,
+   "door4": 0.45,
+   "door5": 0.88
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "tk_joint",
   "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
   "method": "action-only",
   "p_true": 0.27371963195116955,
   "posterior": {
@@ -1009,9 +3361,6 @@
   },
   "precision": 0.5,
   "recall": 1.0,
-  "gold": [
-   "key3"
-  ],
   "chosen": [
    "key2",
    "key3"
@@ -1020,11 +3369,14 @@
   "human_cost": 63.2,
   "reached": false,
   "fallback": true,
-  "seconds": 0.3020109509998292
+  "seconds": 0.30296249800085207
  },
  {
   "problem": "tk_joint",
   "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.9999996625460901,
   "posterior": {
@@ -1035,9 +3387,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key3"
-  ],
   "chosen": [
    "key3"
   ],
@@ -1045,11 +3394,14 @@
   "human_cost": 21.2,
   "reached": true,
   "fallback": false,
-  "seconds": 109.5683339469997
+  "seconds": 2.351297509001597
  },
  {
   "problem": "tk_joint",
   "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.9999997354463541,
   "posterior": {
@@ -1060,9 +3412,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key3"
-  ],
   "chosen": [
    "key3"
   ],
@@ -1070,11 +3419,14 @@
   "human_cost": 21.2,
   "reached": true,
   "fallback": false,
-  "seconds": 1.9127975990004416
+  "seconds": 2.2842941540002357
  },
  {
   "problem": "tk_joint",
   "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.99999427024637,
   "posterior": {
@@ -1085,9 +3437,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key3"
-  ],
   "chosen": [
    "key3"
   ],
@@ -1095,11 +3444,14 @@
   "human_cost": 21.2,
   "reached": true,
   "fallback": false,
-  "seconds": 7.672433585999897
+  "seconds": 2.7135977469988575
  },
  {
   "problem": "tk_joint",
   "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.9999964905755588,
   "posterior": {
@@ -1110,9 +3462,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "key3"
-  ],
   "chosen": [
    "key3"
   ],
@@ -1120,11 +3469,308 @@
   "human_cost": 21.2,
   "reached": true,
   "fallback": false,
-  "seconds": 1.916081232000579
+  "seconds": 2.1707356340011756
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.563608291728583,
+  "posterior": {
+   "red": 0.363,
+   "yellow": 0.564,
+   "blue": 0.073,
+   "green": 0.0
+  },
+  "precision": 0.5,
+  "recall": 1.0,
+  "chosen": [
+   "key2",
+   "key3"
+  ],
+  "steps": 120,
+  "human_cost": 58.4,
+  "reached": false,
+  "fallback": true,
+  "seconds": 2.675806865998311
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.5885504362467469,
+  "posterior": {
+   "red": 0.206,
+   "yellow": 0.589,
+   "blue": 0.206,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "steps": 120,
+  "human_cost": 63.6,
+  "reached": false,
+  "fallback": true,
+  "seconds": 3.5592592079992755
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.7740402686403522,
+  "posterior": {
+   "red": 0.198,
+   "yellow": 0.774,
+   "blue": 0.028,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 3.364140772999235
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.8070044709388972,
+  "posterior": {
+   "red": 0.113,
+   "yellow": 0.807,
+   "blue": 0.08,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.039384305000567
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.9833349459081804,
+  "posterior": {
+   "red": 0.015,
+   "yellow": 0.983,
+   "blue": 0.002,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.7420732979990134
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.9830923969861926,
+  "posterior": {
+   "red": 0.011,
+   "yellow": 0.983,
+   "blue": 0.006,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.0616222799981188
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.6277777777777778,
+  "recall": 0.9,
+  "steps": 41.66666666666667,
+  "human_cost": 26.406666666666666,
+  "reached": 0.8666666666666666,
+  "fallback": null,
+  "chosen": "top command (pickup you ?key1) where (iscolor ?key1 blue) (0.40 of 140)"
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.6333333333333333,
+  "recall": 0.9,
+  "steps": 42.9,
+  "human_cost": 27.48,
+  "reached": 0.9,
+  "fallback": null,
+  "chosen": "top command (pickup you ?key1) where (iscolor ?key1 blue) (0.40 of 140)"
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 44.0,
+  "human_cost": 29.2,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (pickup you ?key1) where (iscolor ?key1 blue) (1.00 of 140)"
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 44.0,
+  "human_cost": 29.2,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (pickup you ?key1) where (iscolor ?key1 blue) (1.00 of 140)"
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "answer_goal": "yellow",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.02,
+  "posterior": {
+   "red": 0.54,
+   "yellow": 0.02,
+   "blue": 0.41,
+   "green": 0.03
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "help_probs": {
+   "key1": 0.26,
+   "key2": 0.34,
+   "key3": 0.65,
+   "key4": 0.32
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "gold": [
+   "key3"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.02,
+  "posterior": {
+   "red": 0.88,
+   "yellow": 0.02,
+   "blue": 0.09,
+   "green": 0.01
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "key3"
+  ],
+  "help_probs": {
+   "key1": 0.01,
+   "key2": 0.0,
+   "key3": 0.99,
+   "key4": 0.0
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  },
  {
   "problem": "tk_yellow_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "action-only",
   "p_true": 0.2988908285850791,
   "posterior": {
@@ -1135,19 +3781,19 @@
   },
   "precision": 0.0,
   "recall": 0.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [],
   "steps": 34,
   "human_cost": 38.6,
   "reached": true,
   "fallback": true,
-  "seconds": 0.07554393300051743
+  "seconds": 0.07703472600042005
  },
  {
   "problem": "tk_yellow_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "CLIPS (ollama-llama3.1_latest)",
   "p_true": 0.9998624811943375,
   "posterior": {
@@ -1158,9 +3804,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -1168,11 +3811,14 @@
   "human_cost": 15.799999999999999,
   "reached": true,
   "fallback": false,
-  "seconds": 55.36690870700022
+  "seconds": 2.017851750999398
  },
  {
   "problem": "tk_yellow_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "language-only (ollama-llama3.1_latest)",
   "p_true": 0.9996465643505605,
   "posterior": {
@@ -1183,9 +3829,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -1193,11 +3836,14 @@
   "human_cost": 15.799999999999999,
   "reached": true,
   "fallback": false,
-  "seconds": 1.8168241539997325
+  "seconds": 1.992080817999522
  },
  {
   "problem": "tk_yellow_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "CLIPS (openai-judge-gpt-4o-mini)",
   "p_true": 0.9999999870140602,
   "posterior": {
@@ -1208,9 +3854,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -1218,11 +3861,14 @@
   "human_cost": 15.799999999999999,
   "reached": true,
   "fallback": false,
-  "seconds": 7.100942118000603
+  "seconds": 2.0409456360030163
  },
  {
   "problem": "tk_yellow_door",
   "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
   "method": "language-only (openai-judge-gpt-4o-mini)",
   "p_true": 0.9999999666133197,
   "posterior": {
@@ -1233,9 +3879,6 @@
   },
   "precision": 1.0,
   "recall": 1.0,
-  "gold": [
-   "door3"
-  ],
   "chosen": [
    "door3"
   ],
@@ -1243,6 +3886,294 @@
   "human_cost": 15.799999999999999,
   "reached": true,
   "fallback": false,
-  "seconds": 1.8146025099995313
+  "seconds": 1.9632165479997639
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "CLIPS (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.6953711004361751,
+  "posterior": {
+   "red": 0.152,
+   "yellow": 0.152,
+   "blue": 0.695,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 24,
+  "human_cost": 17.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.000468523001473
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "language-only (openai-verbal-gpt-4o-mini)",
+  "p_true": 0.4800027428728165,
+  "posterior": {
+   "red": 0.26,
+   "yellow": 0.26,
+   "blue": 0.48,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 36,
+  "human_cost": 39.2,
+  "reached": true,
+  "fallback": true,
+  "seconds": 2.0055638760022703
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "CLIPS (jev-scorer)",
+  "p_true": 0.886920452143772,
+  "posterior": {
+   "red": 0.057,
+   "yellow": 0.057,
+   "blue": 0.887,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "steps": 24,
+  "human_cost": 15.799999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.9485334740020335
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "language-only (jev-scorer)",
+  "p_true": 0.757789913266945,
+  "posterior": {
+   "red": 0.121,
+   "yellow": 0.121,
+   "blue": 0.758,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "steps": 24,
+  "human_cost": 17.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.9970011219993467
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "CLIPS (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.994792927556961,
+  "posterior": {
+   "red": 0.003,
+   "yellow": 0.003,
+   "blue": 0.995,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "steps": 24,
+  "human_cost": 15.799999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.376114149999921
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "language-only (decisions-gpt-6-luna-scorer)",
+  "p_true": 0.9869174161896974,
+  "posterior": {
+   "red": 0.007,
+   "yellow": 0.007,
+   "blue": 0.987,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "steps": 24,
+  "human_cost": 15.799999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.855172389998188
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal naive (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.8166666666666667,
+  "recall": 1.0,
+  "steps": 32.4,
+  "human_cost": 18.319999999999997,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 yellow) (0.75 of 140)"
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal efficient (ollama-llama3.1_latest)",
+  "p_true": null,
+  "precision": 0.8166666666666667,
+  "recall": 1.0,
+  "steps": 32.2,
+  "human_cost": 18.259999999999998,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 yellow) (0.75 of 140)"
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal naive (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 26.0,
+  "human_cost": 16.4,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 yellow) (1.00 of 140)"
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "literal efficient (openai-judge-gpt-4o-mini)",
+  "p_true": null,
+  "precision": 1.0,
+  "recall": 1.0,
+  "steps": 26.0,
+  "human_cost": 16.4,
+  "reached": 1.0,
+  "fallback": null,
+  "chosen": "top command (unlock you ?door1) where (iscolor ?door1 yellow) (1.00 of 140)"
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "vision-gpt-5.5",
+  "p_true": 1.0,
+  "precision": 0.5,
+  "recall": 1.0,
+  "chosen": [
+   "door3",
+   "key4"
+  ],
+  "answer_goal": "blue",
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "decision-e2e-jev",
+  "p_true": 0.12,
+  "posterior": {
+   "red": 0.03,
+   "yellow": 0.61,
+   "blue": 0.12,
+   "green": 0.24
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "chosen": [
+   "door3"
+  ],
+  "help_probs": {
+   "door1": 0.26,
+   "door2": 0.24,
+   "door3": 0.53,
+   "door4": 0.27,
+   "door5": 0.21
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "gold": [
+   "door3"
+  ],
+  "method": "decision-e2e-decisions-gpt-6-luna",
+  "p_true": 0.0,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 1.0,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "chosen": [],
+  "help_probs": {
+   "door1": 0.0,
+   "door2": 0.0,
+   "door3": 0.28,
+   "door4": 0.0,
+   "door5": 0.0
+  },
+  "steps": null,
+  "human_cost": null,
+  "reached": null,
+  "fallback": null
  }
 ]

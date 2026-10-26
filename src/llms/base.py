@@ -16,7 +16,7 @@ CACHE_DIR = RESULTS / "cache" / "llm"
 
 
 class ScoreCache:
-    """A JSON file of key -> float, so reruns never repeat an LLM call."""
+    """A JSON file of key -> score (or a parsed answer), so reruns never repeat an LLM call."""
 
     def __init__(self, name: str):
         self.path = CACHE_DIR / f"{name}.json"
@@ -29,7 +29,7 @@ class ScoreCache:
     def get(self, key: str):
         return self.data.get(key)
 
-    def put(self, key: str, value: float) -> None:
+    def put(self, key: str, value) -> None:
         self.data[key] = value
 
     def save(self) -> None:
