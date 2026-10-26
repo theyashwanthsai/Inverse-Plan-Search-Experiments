@@ -11,7 +11,7 @@ from math import comb
 
 import numpy as np
 
-from .envs.base import Domain, State
+from envs.base import Domain, State
 from .planners import Plan, prob_astar
 
 REPLAN, REFINE, KEEP = 0, 1, 2

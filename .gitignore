@@ -11,3 +11,4 @@ wheels/
 
 # Markdown files (README, REPORT, ASSUMPTIONS, result tables)
 *.md
+.env

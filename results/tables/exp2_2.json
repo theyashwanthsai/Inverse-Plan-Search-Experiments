@@ -1,0 +1,57 @@
+{
+ "mean_P_true_goal": {
+  "optimal": {
+   "full": 0.4103638438704877,
+   "G-lesioned": 0.431257024371673,
+   "P-lesioned": 0.3886986057255003,
+   "A-lesioned": 0.3329815793467922,
+   "Boltzmann": 0.5871623691424691
+  },
+  "goal": {
+   "full": 0.7834616428796369,
+   "G-lesioned": 0.7684752035297774,
+   "P-lesioned": 0.7873884701753515,
+   "A-lesioned": 0.6781837690402912,
+   "Boltzmann": 0.7298654983815056
+  },
+  "backtrack": {
+   "full": 0.8342441026125688,
+   "G-lesioned": 0.8644078105903779,
+   "P-lesioned": 0.6978391263084891,
+   "A-lesioned": 0.7850625597660125,
+   "Boltzmann": 0.3983999444663006
+  },
+  "action": {
+   "full": 0.6059187736658981,
+   "G-lesioned": 0.5978509424726416,
+   "P-lesioned": 0.6373932488038201,
+   "A-lesioned": 0.6405335408566264,
+   "Boltzmann": 0.5118463529084658
+  },
+  "all": {
+   "full": 0.6584970907571478,
+   "G-lesioned": 0.6654977452411175,
+   "P-lesioned": 0.6278298627532902,
+   "A-lesioned": 0.6091903622524305,
+   "Boltzmann": 0.5568185412246853
+  }
+ },
+ "stimuli": [
+  "blockwords-m2/pear/optimal",
+  "blockwords-m2/wear/optimal",
+  "blockwords-m0/reap/optimal",
+  "blockwords-m1/wear/optimal",
+  "blockwords-m1/pace/goal",
+  "blockwords-m2/draw/goal",
+  "blockwords-m2/pace/goal",
+  "blockwords-m0/draw/goal",
+  "blockwords-m2/pace/backtrack",
+  "blockwords-m2/reap/backtrack",
+  "blockwords-m2/wear/backtrack",
+  "blockwords-m2/draw/backtrack",
+  "blockwords-m2/reap/action",
+  "blockwords-m2/pear/action",
+  "blockwords-m0/wear/action",
+  "blockwords-m1/reap/action"
+ ]
+}

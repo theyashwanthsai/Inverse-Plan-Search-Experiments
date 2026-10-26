@@ -1,0 +1,58 @@
+{
+ "mean_P_true_goal": {
+  "optimal": {
+   "full": 0.7742896993745887,
+   "P-lesioned": 0.8797271643361302,
+   "A-lesioned": 0.7793022974525518,
+   "Boltzmann": 0.8843630294143211
+  },
+  "failure": {
+   "full": 0.6682394202875023,
+   "P-lesioned": 0.30404037229765773,
+   "A-lesioned": 0.6963856909566936,
+   "Boltzmann": 0.6295423217259186
+  },
+  "action": {
+   "full": 0.8533414496066427,
+   "P-lesioned": 0.9251251127188741,
+   "A-lesioned": 0.5392744413279753,
+   "Boltzmann": 0.8246461354850196
+  },
+  "backtrack": {
+   "full": 0.5180423116449303,
+   "P-lesioned": 0.4498565220527229,
+   "A-lesioned": 0.3884185902367205,
+   "Boltzmann": 0.37947977088921464
+  },
+  "all": {
+   "full": 0.703478220228416,
+   "P-lesioned": 0.6396872928513462,
+   "A-lesioned": 0.6008452549934853,
+   "Boltzmann": 0.6795078143786184
+  }
+ },
+ "change_in_P_true_at_failure": {
+  "full": 0.07114962351866351,
+  "P-lesioned": -0.00032708229315234704,
+  "A-lesioned": -0.010991746373407005,
+  "Boltzmann": 0.052604651319481
+ },
+ "stimuli": [
+  "rooms/yellow/optimal",
+  "failure/red/optimal",
+  "backtrack/yellow/optimal",
+  "open/yellow/optimal",
+  "failure/blue/failure",
+  "failure/yellow/failure",
+  "twokey/blue/failure",
+  "failure/blue/failure",
+  "twokey/blue/action",
+  "open/blue/action",
+  "backtrack/yellow/action",
+  "rooms/blue/action",
+  "open/blue/backtrack",
+  "backtrack/yellow/backtrack",
+  "rooms/yellow/backtrack",
+  "failure/yellow/backtrack"
+ ]
+}

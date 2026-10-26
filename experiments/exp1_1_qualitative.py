@@ -5,7 +5,6 @@
 No human data: the paper's correlations with humans (SIPS r=0.89, BIRL r=0.51) are NOT reproduced.
 """
 import json
-from pathlib import Path
 
 import matplotlib
 matplotlib.use("Agg")
@@ -13,12 +12,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from sips.agent import AgentParams
-from sips.birl import BIRL, async_vi, exact_vi, oracle_sampler
-from sips.envs.dkg import GEM_RGB, draw
-from sips.envs.dkg_maps import backtrack_map, failure_map
+from birl.birl import BIRL, async_vi, exact_vi, oracle_sampler
+from envs.dkg import GEM_RGB, draw
+from envs.dkg.maps import backtrack_map, failure_map
 from sips.smc import SIPS, SIPSConfig
 
-OUT = Path(__file__).resolve().parents[1] / "results"
+from common.paths import RESULTS as OUT
 SEEDS = 20
 
 # Hand-scripted stimuli in the spirit of thesis Fig 1.1 (the paper's were also hand-designed).

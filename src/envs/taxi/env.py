@@ -10,7 +10,7 @@ three landmarks other than the passenger's start.
     |Y| : |B: |
     +---------+
 """
-from .base import Domain
+from ..base import Domain
 
 LANDMARKS = {"R": (0, 0), "G": (0, 4), "Y": (4, 0), "B": (4, 3)}
 NAMES = list(LANDMARKS)

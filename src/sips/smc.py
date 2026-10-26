@@ -17,7 +17,7 @@ from dataclasses import dataclass, field
 import numpy as np
 
 from .agent import AgentParams, Mind, action_probs, advance, plan_update
-from .envs.base import Domain
+from envs.base import Domain
 
 
 @dataclass

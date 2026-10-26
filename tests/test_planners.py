@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from sips.envs.dkg_maps import backtrack_map, failure_map, tiny_map
+from envs.dkg.maps import backtrack_map, failure_map, tiny_map
 from sips.planners import astar, enumerate_prob_astar, prob_astar
 from test_dkg import bfs_plan
 

@@ -1,7 +1,7 @@
 import numpy as np
 
-from sips.birl import BIRL, async_vi, exact_vi, oracle_sampler, uniform_sampler
-from sips.envs.dkg_maps import failure_map, tiny_map
+from birl.birl import BIRL, async_vi, exact_vi, oracle_sampler, uniform_sampler
+from envs.dkg.maps import failure_map, tiny_map
 from sips.planners import astar
 
 

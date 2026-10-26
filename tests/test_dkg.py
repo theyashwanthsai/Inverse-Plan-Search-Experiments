@@ -1,6 +1,6 @@
 from collections import deque
 
-from sips.envs.dkg_maps import backtrack_map, failure_map, tiny_map
+from envs.dkg.maps import backtrack_map, failure_map, tiny_map
 
 
 def bfs_plan(env, s0, g):

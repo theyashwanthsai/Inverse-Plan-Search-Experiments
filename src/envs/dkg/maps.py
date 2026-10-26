@@ -2,7 +2,7 @@
 
 Goal order is the gem digit order: gem '1' is goal 0, '2' is goal 1, '3' is goal 2.
 """
-from .dkg import DKG
+from .env import DKG
 
 GEMS = {"1": "yellow", "2": "blue", "3": "red"}
 

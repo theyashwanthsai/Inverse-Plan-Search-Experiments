@@ -1,7 +1,7 @@
 import numpy as np
 
-from sips.envs.blockwords import BlockWords, all_states, LETTERS, relaxed_cost, facts_of
-from sips.envs.taxi import Taxi
+from envs.blockwords import BlockWords, all_states, LETTERS, relaxed_cost, facts_of
+from envs.taxi import Taxi
 from sips.planners import astar
 from test_dkg import bfs_plan
 

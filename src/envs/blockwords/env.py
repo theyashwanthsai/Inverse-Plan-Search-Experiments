@@ -7,7 +7,7 @@ or "" (hand empty).
 """
 from functools import lru_cache
 
-from .base import Domain
+from ..base import Domain
 
 LETTERS = tuple("acdeprw")
 WORDS = ["draw", "ward", "pace", "cape", "wear"]
@@ -20,8 +20,9 @@ def _canon(towers):
 class BlockWords(Domain):
     default_heuristic = "hadd"
 
-    def __init__(self, init_towers, words=WORDS, name="blockwords"):
+    def __init__(self, init_towers, words=WORDS, name="blockwords", letters=LETTERS):
         self.name = name
+        self.letters = tuple(letters)
         self.words = list(words)
         self.goal_names = list(words)
         self.initial_state = (_canon(tuple(tuple(t) for t in init_towers)), "")
@@ -58,14 +59,14 @@ class BlockWords(Domain):
         return self.goal_facts[g] <= facts_of(s)
 
     def sample_state(self, rng):
-        states = all_states(LETTERS)
+        states = all_states(self.letters)
         return states[int(rng.integers(len(states)))]
 
     # ---------------- heuristics ----------------
     def _relaxed(self, s, g, combine):
         key = (s, g, combine)
         if key not in self._h_cache:
-            self._h_cache[key] = relaxed_cost(facts_of(s), self.goal_facts[g], combine)
+            self._h_cache[key] = relaxed_cost(facts_of(s), self.goal_facts[g], combine, _ground_actions(self.letters))
         return self._h_cache[key]
 
     def h_add(self, s, g):
@@ -96,6 +97,7 @@ def facts_of(s) -> frozenset:
     return frozenset(f)
 
 
+@lru_cache(maxsize=None)
 def _ground_actions(letters):
     acts = []  # (preconditions, add effects) of the delete relaxation
     for x in letters:
@@ -111,14 +113,14 @@ def _ground_actions(letters):
 ACTIONS = _ground_actions(LETTERS)
 
 
-def relaxed_cost(state_facts, goal, combine: str) -> float:
+def relaxed_cost(state_facts, goal, combine: str, actions=None) -> float:
     """Fixpoint of fact costs under the delete relaxation; h = sum (h_add) or max (h_max) over goal facts."""
     cost = dict.fromkeys(state_facts, 0.0)
     agg = sum if combine == "add" else max
     changed = True
     while changed:
         changed = False
-        for pre, add in ACTIONS:
+        for pre, add in (ACTIONS if actions is None else actions):
             if all(p in cost for p in pre):
                 c = agg(cost[p] for p in pre) + 1.0
                 for f in add:
@@ -133,7 +135,7 @@ def relaxed_cost(state_facts, goal, combine: str) -> float:
 @lru_cache(maxsize=None)
 def all_states(letters) -> list:
     """Every Block Words state over these letters (all are mutually reachable)."""
-    d = BlockWords([[x] for x in letters], words=[])
+    d = BlockWords([[x] for x in letters], words=[], letters=letters)
     return sorted(d.reachable_states(), key=repr)
 
 

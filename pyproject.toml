@@ -8,9 +8,17 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
+    "gguf>=0.19.0",
     "matplotlib>=3.11.2",
     "numpy>=2.4.6",
+    "openai>=3.37.0",
+    "python-dotenv>=1.2.4",
+    "regex>=2026.9.29",
+    "scipy>=1.17.1",
 ]
+
+[tool.uv.build-backend]
+module-name = ["sips", "birl", "envs", "evaluation", "common", "mistakes", "openended", "clips", "llms"]
 
 [build-system]
 requires = ["uv_build>=0.9.5,<0.10.0"]

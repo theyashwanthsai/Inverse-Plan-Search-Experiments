@@ -2,7 +2,7 @@ import numpy as np
 
 from sips.agent import AgentParams, Mind, action_probs, sample_trajectory
 from sips.behaviour import summarize
-from sips.envs.dkg_maps import backtrack_map, failure_map, tiny_map
+from envs.dkg.maps import backtrack_map, failure_map, tiny_map
 
 
 def test_budget_pmf_mean_matches_negbin():

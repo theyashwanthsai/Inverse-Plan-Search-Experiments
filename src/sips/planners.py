@@ -6,7 +6,7 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from .envs.base import Domain, Heuristic, State
+from envs.base import Domain, Heuristic, State
 
 
 @dataclass(frozen=True)

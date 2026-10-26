@@ -1,20 +1,20 @@
 """Stage 4 key correctness check: SIPS converges to the exact posterior as particle count grows.
 
-    uv run python experiments/exact_convergence.py
+    uv run python checks/exact_convergence.py
 """
 import json
-from pathlib import Path
 
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
+from common.paths import RESULTS
 from sips.convergence import LAYERS, sips_error, make_problems
 
 KS = [3, 6, 12, 24, 48, 96, 192, 384, 768]
 SEEDS = 20
-OUT = Path(__file__).resolve().parents[1] / "results"
+OUT = RESULTS
 
 
 def main():

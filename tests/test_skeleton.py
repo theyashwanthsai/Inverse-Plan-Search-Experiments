@@ -1,4 +1,4 @@
-from sips.seeding import make_rng
+from common.seeding import make_rng
 
 
 def test_rng_is_reproducible():

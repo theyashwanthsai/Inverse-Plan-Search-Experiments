@@ -2,7 +2,7 @@
 import numpy as np
 
 from .agent import AgentParams, sample_trajectory
-from .envs.dkg_maps import tiny_map
+from envs.dkg.maps import tiny_map
 from .exact import exact_goal_posterior
 from .smc import SIPS, SIPSConfig
 

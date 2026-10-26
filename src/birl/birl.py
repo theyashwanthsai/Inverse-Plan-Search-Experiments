@@ -10,7 +10,7 @@ import time
 
 import numpy as np
 
-from .envs.base import Domain
+from envs.base import Domain
 
 
 class ValueTables:

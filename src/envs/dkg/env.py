@@ -19,7 +19,7 @@ from collections import deque
 
 import numpy as np
 
-from .base import Domain
+from ..base import Domain
 
 MOVES = {"up": (-1, 0), "down": (1, 0), "left": (0, -1), "right": (0, 1)}
 UNLOCKS = {"unlock_" + d: delta for d, delta in MOVES.items()}

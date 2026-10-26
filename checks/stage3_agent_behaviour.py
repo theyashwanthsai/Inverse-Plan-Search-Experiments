@@ -1,23 +1,23 @@
 """Stage 3 check: sample trajectories from the agent model and confirm it is boundedly rational
 (sometimes backtracks, sometimes wastes keys) rather than optimal.
 
-    uv run python experiments/stage3_agent_behaviour.py
+    uv run python checks/stage3_agent_behaviour.py
 """
 import json
-from pathlib import Path
 
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+from common.paths import RESULTS
 from sips.agent import AgentParams, sample_trajectory
 from sips.behaviour import summarize
-from sips.envs.dkg import draw
-from sips.envs.dkg_maps import backtrack_map, failure_map
-from sips.seeding import make_rng
+from envs.dkg import draw
+from envs.dkg.maps import backtrack_map, failure_map
+from common.seeding import make_rng
 
 N = 200
-OUT = Path(__file__).resolve().parents[1] / "results"
+OUT = RESULTS
 
 
 def main():

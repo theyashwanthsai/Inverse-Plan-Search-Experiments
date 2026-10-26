@@ -4,10 +4,10 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from .agent import AgentParams, sample_trajectory
-from .birl import BIRL, async_vi, exact_vi, oracle_sampler, uniform_sampler
-from .planners import astar
-from .smc import SIPS, SIPSConfig
+from sips.agent import AgentParams, sample_trajectory
+from birl.birl import BIRL, async_vi, exact_vi, oracle_sampler, uniform_sampler
+from sips.planners import astar
+from sips.smc import SIPS, SIPSConfig
 
 QUARTILES = (0.25, 0.5, 0.75)
 

@@ -1,0 +1,1248 @@
+[
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "action-only",
+  "p_true": 0.5952943015039903,
+  "posterior": {
+   "red": 0.595,
+   "yellow": 0.159,
+   "blue": 0.123,
+   "green": 0.123
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.2773873759997514
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.8285931584079386,
+  "posterior": {
+   "red": 0.829,
+   "yellow": 0.0,
+   "blue": 0.171,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 22.29366442799983
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.499908774336059,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.19592404299964983
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.8286449772231324,
+  "posterior": {
+   "red": 0.829,
+   "yellow": 0.0,
+   "blue": 0.171,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.23506306700073765
+ },
+ {
+  "problem": "rk_ambiguous_left",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.49999999853573074,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 18,
+  "human_cost": 11.4,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.19264062299953366
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "action-only",
+  "p_true": 0.37785162831629776,
+  "posterior": {
+   "red": 0.157,
+   "yellow": 0.087,
+   "blue": 0.378,
+   "green": 0.378
+  },
+  "precision": 0.5,
+  "recall": 1.0,
+  "gold": [
+   "key2"
+  ],
+  "chosen": [
+   "key2",
+   "key3"
+  ],
+  "steps": 24,
+  "human_cost": 12.8,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.013151467999705346
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.706345282083537,
+  "posterior": {
+   "red": 0.293,
+   "yellow": 0.0,
+   "blue": 0.706,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key2"
+  ],
+  "chosen": [
+   "key2"
+  ],
+  "steps": 22,
+  "human_cost": 12.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.2051738309992288
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.499908774336059,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "key2"
+  ],
+  "chosen": [],
+  "steps": 32,
+  "human_cost": 23.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.19607887199981633
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.7065274179046679,
+  "posterior": {
+   "red": 0.293,
+   "yellow": 0.0,
+   "blue": 0.707,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key2"
+  ],
+  "chosen": [
+   "key2"
+  ],
+  "steps": 22,
+  "human_cost": 12.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.20785216900003434
+ },
+ {
+  "problem": "rk_ambiguous_right",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.49999999853573074,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "key2"
+  ],
+  "chosen": [],
+  "steps": 32,
+  "human_cost": 23.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.19750925700009248
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "action-only",
+  "p_true": 0.25,
+  "posterior": {
+   "red": 0.25,
+   "yellow": 0.25,
+   "blue": 0.25,
+   "green": 0.25
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [],
+  "steps": 23,
+  "human_cost": 20.0,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.00017524499980936525
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.49986912445976756,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 21,
+  "human_cost": 13.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 14.970654813999317
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.49986912445976756,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 21,
+  "human_cost": 13.399999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.20856583200020395
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.49999999712990684,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 19,
+  "human_cost": 12.8,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.2081101320000016
+ },
+ {
+  "problem": "rk_no_actions",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.49999999712990684,
+  "posterior": {
+   "red": 0.5,
+   "yellow": 0.0,
+   "blue": 0.5,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1"
+  ],
+  "chosen": [
+   "key1"
+  ],
+  "steps": 19,
+  "human_cost": 12.8,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.21219722999921942
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "action-only",
+  "p_true": 0.6741436915359194,
+  "posterior": {
+   "red": 0.078,
+   "yellow": 0.029,
+   "blue": 0.219,
+   "green": 0.674
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 11.0,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.031566927999847394
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.9999455949634464,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 0.0,
+   "green": 1.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 12.150143212999865
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.9996608063437669,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 0.0,
+   "green": 1.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.1894892450000043
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9999984742245882,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 0.0,
+   "green": 1.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.22085086600054638
+ },
+ {
+  "problem": "rk_door_blue",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9999926981198999,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 0.0,
+   "green": 1.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 18,
+  "human_cost": 10.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.18891771499966126
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "action-only",
+  "p_true": 0.758476492095361,
+  "posterior": {
+   "red": 0.758,
+   "yellow": 0.073,
+   "blue": 0.09,
+   "green": 0.078
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door1"
+  ],
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 11.0,
+  "reached": true,
+  "fallback": false,
+  "seconds": 0.032594765999419906
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.5368565966283327,
+  "posterior": {
+   "red": 0.537,
+   "yellow": 0.0,
+   "blue": 0.064,
+   "green": 0.399
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door1"
+  ],
+  "chosen": [],
+  "steps": 20,
+  "human_cost": 17.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 12.115536634000819
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.1204636106408071,
+  "posterior": {
+   "red": 0.12,
+   "yellow": 0.0,
+   "blue": 0.12,
+   "green": 0.759
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door1"
+  ],
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 17.0,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.17877545100054704
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.761291333931186,
+  "posterior": {
+   "red": 0.761,
+   "yellow": 0.0,
+   "blue": 0.09,
+   "green": 0.148
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door1"
+  ],
+  "chosen": [
+   "door1"
+  ],
+  "steps": 48,
+  "human_cost": 29.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.21127055599936284
+ },
+ {
+  "problem": "rk_that_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.27440489346438734,
+  "posterior": {
+   "red": 0.274,
+   "yellow": 0.0,
+   "blue": 0.274,
+   "green": 0.451
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door1"
+  ],
+  "chosen": [],
+  "steps": 18,
+  "human_cost": 17.0,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.1788722940000298
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "method": "action-only",
+  "p_true": 0.6965218502083621,
+  "posterior": {
+   "red": 0.697,
+   "yellow": 0.181,
+   "blue": 0.092,
+   "green": 0.03
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.1498515519997454
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.9631203192240188,
+  "posterior": {
+   "red": 0.963,
+   "yellow": 0.037,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 66.99228631200003
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.7887506983361143,
+  "posterior": {
+   "red": 0.789,
+   "yellow": 0.211,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.860859475000325
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9657462453117764,
+  "posterior": {
+   "red": 0.966,
+   "yellow": 0.034,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 2.1320035600001574
+ },
+ {
+  "problem": "tk_partial_red",
+  "category": "partial / assistant / low uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.8002255432656933,
+  "posterior": {
+   "red": 0.8,
+   "yellow": 0.2,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key1",
+   "key2"
+  ],
+  "chosen": [
+   "key1",
+   "key2"
+  ],
+  "steps": 24,
+  "human_cost": 13.6,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.8726003619995026
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "method": "action-only",
+  "p_true": 0.3778516283162975,
+  "posterior": {
+   "red": 0.378,
+   "yellow": 0.378,
+   "blue": 0.157,
+   "green": 0.087
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 0.07557948200064857
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.39592357837472825,
+  "posterior": {
+   "red": 0.604,
+   "yellow": 0.396,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 55.59806912399927
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.3959093994834082,
+  "posterior": {
+   "red": 0.604,
+   "yellow": 0.396,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "chosen": [],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 1.870204494999598
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.333330330847608,
+  "posterior": {
+   "red": 0.667,
+   "yellow": 0.333,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "chosen": [],
+  "steps": 52,
+  "human_cost": 32.8,
+  "reached": true,
+  "fallback": true,
+  "seconds": 1.947555650999675
+ },
+ {
+  "problem": "tk_partial_door",
+  "category": "partial / assistant / high uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.3333303283561102,
+  "posterior": {
+   "red": 0.667,
+   "yellow": 0.333,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door2",
+   "door5"
+  ],
+  "chosen": [],
+  "steps": 52,
+  "human_cost": 32.8,
+  "reached": true,
+  "fallback": true,
+  "seconds": 1.8877972509999381
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "action-only",
+  "p_true": 0.25,
+  "posterior": {
+   "red": 0.25,
+   "yellow": 0.25,
+   "blue": 0.25,
+   "green": 0.25
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "chosen": [],
+  "steps": 37,
+  "human_cost": 31.0,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.00020082500032003736
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.9776079813923504,
+  "posterior": {
+   "red": 0.978,
+   "yellow": 0.022,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "chosen": [
+   "door1",
+   "door4"
+  ],
+  "steps": 25,
+  "human_cost": 14.599999999999998,
+  "reached": true,
+  "fallback": false,
+  "seconds": 48.94223726099972
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.9776079813923504,
+  "posterior": {
+   "red": 0.978,
+   "yellow": 0.022,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "chosen": [
+   "door1",
+   "door4"
+  ],
+  "steps": 25,
+  "human_cost": 14.599999999999998,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.8672843690001173
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9948488160695368,
+  "posterior": {
+   "red": 0.995,
+   "yellow": 0.005,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "chosen": [
+   "door1",
+   "door4"
+  ],
+  "steps": 25,
+  "human_cost": 14.599999999999998,
+  "reached": true,
+  "fallback": false,
+  "seconds": 7.6125019139999495
+ },
+ {
+  "problem": "tk_red_doors",
+  "category": "ambiguous / assistant / high uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9948488160695368,
+  "posterior": {
+   "red": 0.995,
+   "yellow": 0.005,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door1",
+   "door4"
+  ],
+  "chosen": [
+   "door1",
+   "door4"
+  ],
+  "steps": 25,
+  "human_cost": 14.599999999999998,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.8643896949997725
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "method": "action-only",
+  "p_true": 0.27371963195116955,
+  "posterior": {
+   "red": 0.579,
+   "yellow": 0.274,
+   "blue": 0.117,
+   "green": 0.031
+  },
+  "precision": 0.5,
+  "recall": 1.0,
+  "gold": [
+   "key3"
+  ],
+  "chosen": [
+   "key2",
+   "key3"
+  ],
+  "steps": 120,
+  "human_cost": 63.2,
+  "reached": false,
+  "fallback": true,
+  "seconds": 0.3020109509998292
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.9999996625460901,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 1.0,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key3"
+  ],
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 109.5683339469997
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.9999997354463541,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 1.0,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key3"
+  ],
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.9127975990004416
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.99999427024637,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 1.0,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key3"
+  ],
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 7.672433585999897
+ },
+ {
+  "problem": "tk_joint",
+  "category": "partial / joint / low uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9999964905755588,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 1.0,
+   "blue": 0.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "key3"
+  ],
+  "chosen": [
+   "key3"
+  ],
+  "steps": 28,
+  "human_cost": 21.2,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.916081232000579
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "action-only",
+  "p_true": 0.2988908285850791,
+  "posterior": {
+   "red": 0.124,
+   "yellow": 0.124,
+   "blue": 0.299,
+   "green": 0.453
+  },
+  "precision": 0.0,
+  "recall": 0.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [],
+  "steps": 34,
+  "human_cost": 38.6,
+  "reached": true,
+  "fallback": true,
+  "seconds": 0.07554393300051743
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (ollama-llama3.1_latest)",
+  "p_true": 0.9998624811943375,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 1.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 24,
+  "human_cost": 15.799999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 55.36690870700022
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (ollama-llama3.1_latest)",
+  "p_true": 0.9996465643505605,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 1.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 24,
+  "human_cost": 15.799999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.8168241539997325
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "CLIPS (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9999999870140602,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 1.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 24,
+  "human_cost": 15.799999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 7.100942118000603
+ },
+ {
+  "problem": "tk_yellow_door",
+  "category": "ambiguous / assistant / low uncertainty",
+  "method": "language-only (openai-judge-gpt-4o-mini)",
+  "p_true": 0.9999999666133197,
+  "posterior": {
+   "red": 0.0,
+   "yellow": 0.0,
+   "blue": 1.0,
+   "green": 0.0
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "gold": [
+   "door3"
+  ],
+  "chosen": [
+   "door3"
+  ],
+  "steps": 24,
+  "human_cost": 15.799999999999999,
+  "reached": true,
+  "fallback": false,
+  "seconds": 1.8146025099995313
+ }
+]

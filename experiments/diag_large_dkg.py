@@ -6,10 +6,11 @@ to test whether unbiased BIRL goes flat once the state space is large, as the pa
 import numpy as np
 
 from sips.agent import AgentParams
-from sips.envs.dkg_maps import large_map
-from sips.evaluate import aggregate, format_table, run_birl, run_sips, timed_vi
+from envs.dkg.maps import large_map
+from evaluation.evaluate import aggregate, format_table, run_birl, run_sips, timed_vi
 from sips.smc import SIPSConfig
-from exp1_2_accuracy import OUT, make_dataset
+from common.paths import TABLES
+from evaluation.datasets import make_dataset
 
 
 def main():
@@ -24,7 +25,7 @@ def main():
         rows[m] = [run_birl(p, vt, c0) for p in problems]
     table = format_table({m: aggregate(r) for m, r in rows.items()})
     print(table)
-    (OUT / "tables" / "diag_large_dkg.md").write_text(f"# Large DKG map diagnostic ({len(problems)} problems)\n\n{table}\n")
+    (TABLES / "diag_large_dkg.md").write_text(f"# Large DKG map diagnostic ({len(problems)} problems)\n\n{table}\n")
 
 
 if __name__ == "__main__":
